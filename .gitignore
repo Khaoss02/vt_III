@@ -1,20 +1,19 @@
 # ignore the user configuration file
 conf.yaml
 
-# ignore non-default background images
-/backgrounds/*
+# ignore non-default background images/backgrounds/*
 
 # ignore non-default live2d models
-/live2d-models/*
-!/live2d-models/mao_pro
-!/live2d-models/shizuku
+# /live2d-models/*
+# !/live2d-models/mao_pro
+# !/live2d-models/shizuku
 
 # ignore non-default character configs
-/characters/*
+# /characters/*
 # but all of the defaults are already tracked, so no need to un-ignore them
 
 # ignore avatars
-avatars/*
+# avatars/*
 
 # macOS system files
 .DS_Store
@@ -36,8 +35,8 @@ api_keys.py
 src/open_llm_vtuber/llm/user_credentials.json
 
 # Database files
-memory.db
-memory.db.bk
+# memory.db
+# memory.db.bk
 
 # Logs
 server.log
@@ -45,20 +44,20 @@ logs/*
 
 # Cache and models
 cache/*
-src/open_llm_vtuber/tts/asset
-src/open_llm_vtuber/tts/config
-src/open_llm_vtuber/asr/models*
-!src/open_llm_vtuber/asr/models/silero_vad.onnx
-asset
-models/*
-!models/piper_voice
-models/piper_voice/*
+# src/open_llm_vtuber/tts/asset
+# src/open_llm_vtuber/tts/config
+# src/open_llm_vtuber/asr/models*
+# !src/open_llm_vtuber/asr/models/silero_vad.onnx
+# asset
+# models/*
+# !models/piper_voice
+# models/piper_voice/*
 
 
 # Legacy and specific directories
 legacy/
 chat_history/
-knowledge_base/
+# knowledge_base/
 submodules/MeloTTS
 openapi_assistants.json
 openapi_memgpt.json
